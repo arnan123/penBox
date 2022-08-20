@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.inputBox{
+  display: flex;
+  flex-direction: column;
+  gap:10px
+}
+
+.resultBox {
+  display: flex;
+  flex-direction: row;
+  gap:10px
+}
