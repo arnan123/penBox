@@ -33,7 +33,7 @@ function App() {
           Number(resArray[x]) + Number(resArray[x + 1]) ===
             Number(number)
         ) {
-          interval.push(Number(resArray[x]), Number(resArray[x + 1]));
+          interval.push(x, x + 1);
           arr.push(interval);
           interval = [];
           x++;
